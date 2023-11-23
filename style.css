@@ -1,3 +1,168 @@
 /*             Mark Graham          */
 /*         November 20, 2023        */
 /* Odin CSS / FlexBox Final Project */
+
+/* General Formatting */
+body{
+    margin: 0;
+    font-size: 18px;
+    font-family: "Roboto", "sans-serif";
+}
+
+/* Header Bar  */
+.header {
+    color: white;
+    padding: 0rem 15rem;
+    padding-bottom: 1rem;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    align-content: center;
+}
+
+.header-logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    flex: 3 1 auto;
+}
+
+.header-link {
+    padding: .75rem;
+    color:#E5E7EB;
+}
+
+/* First Section  */
+.intro-section{
+    color: white;
+    background-color: #1f2937;
+    padding: 7.5rem 15rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.intro-section .section-title, .section-text{
+    margin: 0rem;
+    font-size: 18px;
+}
+
+.intro-section .section-text {
+    padding-bottom: .5rem;
+    color: #E5E7EB;
+}
+
+.intro-section .section-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    padding-bottom: .5rem;
+}
+
+.intro-section img{
+    align-self: center;
+}
+
+.intro-section .button-text-one {
+    color: #F9FAF8;
+    padding: .5rem 1rem;
+    background-color: #3882F6;
+    border: solid #3882F6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Gallery Section  */
+.gallery-section {
+    background-color: #F9FAF8;
+    padding: 2rem 15rem;
+}
+
+.gallery-section-title {
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.gallery{
+    display: flex;
+    flex: 1 1 auto;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.gallery-item img{
+    border: 1rem solid #3882F6;
+    border-radius: 5rem;
+}
+
+.gallery-item {
+    color: #E5E7EB;
+}
+
+/* Quote Section */
+.quote-section {
+    padding: 1rem 15rem;
+    margin: 0rem;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.credit {
+    text-align: right;
+    padding: 0rem 5rem;
+    font-weight: bolder;
+}
+
+/* News Letter Section */
+.news-letter-section{
+    display: flex;
+    margin: 5rem 15rem;
+    padding: 1rem 2rem;
+    background-color: #3882F6;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+.left-four-section {
+    padding: 0rem 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.left-four-section .section-title{
+    color:#E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: .25rem;
+}
+
+.button-style-two {
+    text-align: center;
+    padding: 0rem 7rem;
+    padding-top: 3rem;
+}
+
+.button-style-two p{
+    color: #E5E7EB;
+    padding: .5rem;
+    border: .2rem solid #E5E7EB;
+    border-radius: 1rem;
+}
+
+/* Footer  */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 1rem 15rem;
+}
