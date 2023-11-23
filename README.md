@@ -1,6 +1,9 @@
 # Odin Landing Page
 
-This is a 48 hour project completed for a landing page to a product. <br/>
+<br/>
+This website can be viewed at https://www.markdgraham.github.io/odin-landing-page
+<br/>
+This is a 48-hour project completed for a landing page for a product. <br/>
 <br/>
 Skills Applied:
 <ul>
@@ -11,5 +14,3 @@ Skills Applied:
     <li>Rapid Prototyping<li>
     <li>User Design</li>
 </ul>
-<br/>
-This website can be viewed at https://www.markdgraham.github.io/odin-landing-page
