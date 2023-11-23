@@ -1,7 +1,7 @@
 # Odin Landing Page
 
 <br/>
-This website can be viewed at https://www.markdgraham.github.io/odin-landing-page
+This website can be viewed at https://markdgraham.github.io/Odin-Landing-Page
 <br/>
 This is a 48-hour project completed for a landing page for a product. <br/>
 <br/>
